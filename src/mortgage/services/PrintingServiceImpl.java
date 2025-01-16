@@ -41,7 +41,6 @@ public class PrintingServiceImpl implements PrintingService{
         }
 
         msg.append(NEW_LINE);
-//        msg.append(OVERPAYMENT_FREQUENCY).append(inputData.getOverpaymentSchema());
 
         printOverpaymentSchema(inputData.getOverpaymentSchema());
     }
